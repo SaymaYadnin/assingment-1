@@ -86,7 +86,7 @@ nav .menu a {
     border-radius: 1000px;
     font-size: 16px;
     font-weight: 500;
-    color: #469165;
+    /* color: #469165; */
      margin: 0 auto 16px; /*top,left-right,bottom */
 }
 #banner .banner-content .txt-btn h1 {
@@ -157,4 +157,51 @@ nav .menu a {
     font-size: 16px;
     line-height: 20px;
     color: #627382;
+}
+
+#solution-banner {
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    padding: 120px;
+    gap: 60px;
+}
+
+#solution-banner .solution-content p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 16px;
+}
+
+#solution-banner .solution-content h2 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    margin-bottom: 16px;
+}
+
+#solution-banner .solution-content p {
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    margin-bottom: 40px;
+}
+
+#solution-banner .solution-content .solution-img-txt img{
+    width: 20px;
+    height: 20px;
+}
+
+#solution-banner .solution-content .solution-img-txt {
+    display: flex;
+    gap: 6px;
+    /* margin-bottom: 16px; */
+}
+
+#solution-banner .solution-content .solution-img-txt p{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 16px;
 }
