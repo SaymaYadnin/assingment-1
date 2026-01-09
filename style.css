@@ -205,3 +205,39 @@ nav .menu a {
     line-height: 20px;
     margin-bottom: 16px;
 }
+
+#think {
+    padding: 0 120px 120px;
+}
+#think .think-container {
+    width: 88%;
+    max-width: 1360px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #F7F6F2;
+    padding: 80px 40px; /* top-bottom, left-right */
+}
+.think-heading {
+    max-width: 1360px;
+    text-align: center;
+}
+.think-heading h2 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #001931;
+    margin-bottom: 16px;
+}
+
+.think-heading p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #627382;
+    margin-bottom: 24px;
+}
+
+.think-heading .btn-p p {
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    margin-top: 16px;
+}
