@@ -22,22 +22,25 @@
     font-size: 16px;
     font-weight: 600;
     color: white;
+    cursor: pointer;
+}
+
+.color-green {
+    color: #469165;
 }
 
 /* main style */
-header {
-   padding: 16px;
 
-}
 
 nav {
-     width: 88%; /*My PC viewport is 1920px, and I changed it to 1536px because my viewport doesn’t support 1600px. I had to choose either 1536px or 1745px. That’s why I selected 1536px, as it is closer to 1600px */
+     width: 88%; /* NB: My PC viewport is 1920px, and I changed it to 1536px because my viewport doesn’t support 1600px. I had to choose either 1536px or 1745px. That’s why I selected 1536px, as it is closer to 1600px */
      max-width: 1360px;
      /* border: 1px solid red;  */
      margin: 0px auto;
      display: flex;
      justify-content: space-between;
      align-items: center;
+     background-color: white;
 }
 
 nav .menu {
@@ -51,4 +54,107 @@ nav .menu a {
     line-height: 1.52;
     color: #000000;
     text-decoration: none;
+}
+
+#banner {
+    /* border:1px solid red;*/
+    height: 674px;
+    background: url("../assets/hero-bg.png");
+    background-size: cover;    /*use it cover the whole section */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat;
+    
+}
+
+#banner .banner-content {
+    width: 88%;
+    max-width: 1360px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 116px 120px 180px; /* top, left-right, bottom */
+}
+
+#banner .banner-content .img-txt {
+    display: flex;
+    align-items: center;
+    width: 230px;
+    height: 36px;
+    gap: 6px;
+    background-color: white;
+    /* border: 1px solid green; */
+    padding: 12px 8px;
+    border-radius: 1000px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #469165;
+     margin: 0 auto 16px; /*top,left-right,bottom */
+}
+#banner .banner-content .txt-btn h1 {
+    font-size: 72px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    line-height: 84px;
+    margin-bottom: 16px;
+}
+
+#banner .banner-content .txt-btn p {
+    font-size: 18px;
+    line-height: 24px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 32px;
+}
+
+#about {
+    background-color: #fbfbfb;
+}
+#about .about-container {
+    width: 88%;
+    max-width: 1360px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 60px 120px 120px; /* top, left-right, bottom */
+}
+
+.section-heading h2 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    margin-bottom: 16px;
+}
+.section-heading p {
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    margin-bottom: 44px;
+}
+
+#about .about-container .about-box {
+    display: flex;
+    gap: 24px;
+}
+
+.about-box .box-card {
+    padding: 70px 24px; /* top-bottom, left-right */
+    /* border: 1px solid red; */
+    box-shadow: 0 0 8px 0 #00000010;
+    max-width: 322px;
+    max-height: 300px;
+}
+
+.box-card img {
+    max-width: 60px;
+    margin-bottom: 16px;
+}
+
+.box-card h3 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #001931;
+    margin-bottom: 16px;
+}
+
+.box-card p {
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
 }
