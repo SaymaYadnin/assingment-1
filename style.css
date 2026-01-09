@@ -14,6 +14,7 @@
     width: 140px;
     height: 60px;
 }
+
 .btn {
     background-color: #469165;
     border: none;
@@ -50,7 +51,6 @@
 }
 
 /* main style */
-
 
 nav {
      width: 88%; /* NB: My PC viewport is 1920px, and I changed it to 1536px because my viewport doesn’t support 1600px. I had to choose either 1536px or 1745px. That’s why I selected 1536px, as it is closer to 1600px */
@@ -110,6 +110,7 @@ nav .menu a {
     /* color: #469165; */
      margin: 0 auto 16px; /*top,left-right,bottom */
 }
+
 #banner .banner-content .txt-btn h1 {
     font-size: 72px;
     font-weight: bold;
@@ -135,6 +136,7 @@ nav .menu a {
     background-color: #fbfbfb;
     padding-top: 60px;
 }
+
 #about .about-container {
     width: 88%;
     max-width: 1360px;
@@ -151,6 +153,7 @@ nav .menu a {
     color: #001931;
     margin-bottom: 16px;
 }
+
 .section-heading p {
     font-size: 16px;
     line-height: 20px;
@@ -248,10 +251,7 @@ nav .menu a {
     background-color: #F7F6F2;
     padding: 80px 40px; /* top-bottom, left-right */
 }
-.think-heading {
-    /* max-width: 1360px; */
-    /* text-align: center; */
-}
+
 .think-heading h2 {
     font-size: 40px;
     font-weight: bold;
@@ -278,9 +278,7 @@ footer {
     padding: 120px 120px 30px;
 } 
 
-
-
- .footer-container .top-heading {
+.footer-container .top-heading {
      width: 88%;
      max-width: 1360px;
      display: flex;
