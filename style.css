@@ -80,7 +80,7 @@ nav .menu a {
 #banner {
     /* border:1px solid red;*/
     height: 674px;
-    background-image: url("../assets/hero-bg.png");
+    background-image: url("assets/hero-bg.png");
     background-size: cover;    /*use it cover the whole section */
     background-position: center; /* Center the image */
     background-repeat: no-repeat;
