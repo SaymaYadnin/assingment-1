@@ -1,0 +1,54 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+/* shared style */
+.font-inter {
+   font-family: "Inter", sans-serif;
+   font-optical-sizing: auto;
+}
+
+.logo img {
+    width: 140px;
+    height: 60px;
+}
+.btn {
+    background-color: #469165;
+    border: none;
+    padding: 12px 16px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+}
+
+/* main style */
+header {
+   padding: 16px;
+
+}
+
+nav {
+     width: 88%; /*My PC viewport is 1920px, and I changed it to 1536px because my viewport doesn’t support 1600px. I had to choose either 1536px or 1745px. That’s why I selected 1536px, as it is closer to 1600px */
+     max-width: 1360px;
+     /* border: 1px solid red;  */
+     margin: 0px auto;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+
+nav .menu {
+    display: flex;
+    list-style-type: none;
+    gap: 32px;
+}
+
+nav .menu a {
+    font-size: 16px;
+    line-height: 1.52;
+    color: #000000;
+    text-decoration: none;
+}
